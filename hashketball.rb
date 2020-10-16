@@ -185,7 +185,7 @@ end
 
 
 def big_shoe_rebounds 
-  get_players.max_by |
+  get_players.max_by |player| player
     
   end 
 end

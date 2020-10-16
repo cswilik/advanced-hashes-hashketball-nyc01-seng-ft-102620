@@ -186,8 +186,7 @@ end
 
 def big_shoe_rebounds 
   get_players.map do |player|
-    binding.pry
-    player.find { |shoe_size| player.max[:shoe_size] }
+    
   end 
 end
     

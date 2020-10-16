@@ -186,8 +186,9 @@ end
 
 def big_shoe_rebounds 
   get_players.max_by do |player| 
-    player[:shoe]
-    return player[:rebounds]
+    if player[:shoe]
+      return player[:rebounds]
+    end
     # binding.pry
   end 
 end

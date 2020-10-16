@@ -185,7 +185,7 @@ end
 
 
 def big_shoe_rebounds 
-  get_players.map do |player|
+  get_players.max_by |
     
   end 
 end

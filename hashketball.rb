@@ -185,9 +185,7 @@ end
 
 
 def big_shoe_rebounds 
-  get_players.max_by do { |player| player[:shoe] } 
-  end 
-  [:player_name]
+  get_players.max_by { |player| player[:shoe] } [:player_name]
 end
     
 
